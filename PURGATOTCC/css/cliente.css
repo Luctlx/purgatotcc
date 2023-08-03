@@ -4,7 +4,7 @@
     }
 
     body {
-    background-color: aliceblue;
+    background-color: white;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -22,7 +22,7 @@
     nav {
     height: 100%;
     max-width: 270px;
-    background-color: #b6cae4;
+    background-color: #415E86;
     color: aliceblue;
     position: fixed;
     }
@@ -36,9 +36,9 @@
     }
 
     nav ul li {
-    background-color: #b6cae4;
+    background-color: #415E86;
     font-size: 30px;
-    border-top: 2px solid aliceblue;
+    border-top: 2px solid rgb(199, 91, 20);
     }
 
     nav ul li :hover {
@@ -46,7 +46,7 @@
     }
 
     nav ul li a {
-    background-color: #b6cae4;
+    background-color: #415E86;
     padding: 10px;
     display: block;
     color: #f0f8ff;
@@ -54,7 +54,7 @@
     }
 
     .ultima {
-    border-bottom: 2px solid aliceblue;
+    border-bottom: 2px solid rgb(199, 91, 20);
     }
 
     .container{
@@ -153,3 +153,53 @@
   font-size: larger;
   }
 
+button{
+padding: 5px;
+margin-left: 15px;
+margin-bottom: 5px;
+background-color:rgb(199, 91, 20);
+color: aliceblue;
+border-radius: 5px;
+border: 1px solid rgb(161, 75, 17);
+}
+button:hover {
+background-color: rgb(214, 110, 41)}
+
+
+.modal {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.2s ease-in-out, visibility 0s linear 0.2s;
+}
+
+.conteudo-modal {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+border: 1px solid #415E86;
+}
+
+.fechar-modal {
+display: block;
+margin-top: 10px;
+}
+
+.abrir-modal:focus + .modal,
+.modal:target {
+opacity: 1;
+visibility: visible;
+transition-delay: 0s, 0s;
+}
+
+.input-modal{
+width: 250px;}

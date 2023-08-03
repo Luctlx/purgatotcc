@@ -4,7 +4,7 @@ font-family:sans-serif
 }
 
 body {
-background-color: aliceblue;
+background-color: white;
 overflow: hidden;
 height: 100%;
 width: 100%;
@@ -22,7 +22,7 @@ top: 35px;
 nav {
 height: 100%;
 max-width: 270px;
-background-color: #b6cae4;
+background-color: #415E86;
 color: aliceblue;
 position: fixed;
 }
@@ -36,9 +36,9 @@ top: 150px;
 }
 
 nav ul li {
-background-color: #b6cae4;
+background-color: #415E86;
 font-size: 30px;
-border-top: 2px solid aliceblue;
+border-top: 2px solid rgb(199, 91, 20);
 }
 
 nav ul li :hover {
@@ -46,7 +46,7 @@ background-color: #7a96af;
 }
 
 nav ul li a {
-background-color: #b6cae4;
+background-color: #415E86;
 padding: 10px;
 display: block;
 color: #f0f8ff;
@@ -54,7 +54,7 @@ text-decoration: none;
 }
 
 .ultima {
-border-bottom: 2px solid aliceblue;
+border-bottom: 2px solid rgb(199, 91, 20);
 }
 
 .container{
@@ -155,13 +155,16 @@ right: 15px;
 }
 button{
 padding: 5px;
-background-color:#b6cae4;
+margin-left: 15px;
+margin-bottom: 5px;
+background-color:rgb(199, 91, 20);
 color: aliceblue;
 border-radius: 5px;
-border: 1px solid #b6cae4;
+border: 1px solid rgb(161, 75, 17);
 }
 button:hover {
-background-color: #7a96af;}
+background-color: rgb(214, 110, 41)}
+
 
 
 .modal {
@@ -184,7 +187,7 @@ transform: translate(-50%, -50%);
 background-color: #fff;
 padding: 20px;
 border-radius: 5px;
-border: 1px solid #b6cae4;
+border: 1px solid #415E86;
 }
 
 .fechar-modal {

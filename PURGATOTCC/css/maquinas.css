@@ -4,7 +4,7 @@
     }
 
     body {
-    background-color: aliceblue;
+    background-color: white;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -22,7 +22,7 @@
     nav {
     height: 100%;
     max-width: 270px;
-    background-color: #b6cae4;
+    background-color: #415E86;
     color: aliceblue;
     position: fixed;
     }
@@ -36,9 +36,9 @@
     }
 
     nav ul li {
-    background-color: #b6cae4;
+    background-color: #415E86;
     font-size: 30px;
-    border-top: 2px solid aliceblue;
+    border-top: 2px solid rgb(199, 91, 20);
     }
 
     nav ul li :hover {
@@ -46,7 +46,7 @@
     }
 
     nav ul li a {
-    background-color: #b6cae4;
+    background-color: #415E86;
     padding: 10px;
     display: block;
     color: #f0f8ff;
@@ -54,7 +54,7 @@
     }
 
     .ultima {
-    border-bottom: 2px solid aliceblue;
+    border-bottom: 2px solid rgb(199, 91, 20);
     }
 
     .container{
